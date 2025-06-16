@@ -12,7 +12,7 @@ struct FallingObject {
         sprite.setTexture(texture);
         sprite.setScale(0.2, 0.2); 
         sprite.setPosition(x, -sprite.getGlobalBounds().height); 
-        isBad = bad;
+        isBad =bad;
     }///setting up bad (bomb) object and good (apple object). STarting them above screen and making their size smaller
 
     void fall(float speed) {
